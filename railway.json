@@ -1,11 +1,6 @@
 {
-  "build": {
-    "command": "npm run build"
-  },
+  "$schema": "https://railway.app/railway.schema.json",
   "deploy": {
-    "command": "npm run api",
-    "environmentVariables": {
-      "NODE_ENV": "production"
-    }
+    "startCommand": "npm run api"
   }
 }
