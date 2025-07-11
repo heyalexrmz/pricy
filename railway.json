@@ -1,0 +1,11 @@
+{
+  "build": {
+    "command": "npm run build"
+  },
+  "deploy": {
+    "command": "npm run api",
+    "environmentVariables": {
+      "NODE_ENV": "production"
+    }
+  }
+}
